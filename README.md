@@ -5,14 +5,14 @@
 在`ParallelPrograming`文件夹下，有子文件夹`lab1`,其中存放的`Controller.cpp`文件是测试程序的**控制文件**
 
 ```c++
-	//  Contorller.cpp   主函数main()
+    //  Contorller.cpp   主函数main()
 
-	// 设置编译选项及迭代次数
+    // 设置编译选项及迭代次数
     char compilerMul[] = "arm-linux-gnueabi-g++ -O3 -fopenmp -static -o sumn Sumn.cpp";
     char compilerSum[] = "arm-linux-gnueabi-g++ -O3 -fopenmp -static -o mmul MMul.cpp";
     int iterations = 100;
 	
-	// 以固定的迭代次数、不同规模，运行待测量算法
+    // 以固定的迭代次数、不同规模，运行待测量算法
     for(int n = 200, n1 = 6; n <= 2200, n1 <= 26; n += 200, n1 += 2){
         Set(n, n1, compilerMul, compilerSum, iterations);     
     }
