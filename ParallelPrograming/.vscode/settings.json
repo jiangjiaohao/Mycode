@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp",
+        "new": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "ratio": "cpp",
+        "bitset": "cpp"
+    }
+}
