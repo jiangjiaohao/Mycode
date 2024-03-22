@@ -175,3 +175,4 @@ MulSimple, MulCache, SumnSimple, SumnRetursion, SumnOP, SumnStep2, CompilerMul, 
 14.8812,7.14723,0.044852,11.5465,6.82714,0.00191436,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o sumn Sumn.cpp,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o mmul MMul.cpp,1800,22,100
 19.3555,8.85753,0.0453979,45.495,27.1292,0.00284888,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o sumn Sumn.cpp,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o mmul MMul.cpp,2000,24,100
 24.6222,10.7839,0.0468203,183.602,110.292,0.0029614,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o sumn Sumn.cpp,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o mmul MMul.cpp,2200,26,100
+0.108844,0.139082,0.0366959,0.0276199,0.0257148,0.00044297,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o sumn Sumn.cpp,arm-linux-gnueabi-g++ -O3 -fopenmp -static -o mmul MMul.cpp,200,6,100
